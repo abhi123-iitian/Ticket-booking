@@ -1,0 +1,26 @@
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+/* You might want to add a background overlay for better readability */
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Adjust color and opacity as needed */
+}
+
+/* Ensure content is positioned above the overlay */
+.content {
+  position: relative;
+  z-index: 1;
+}
+h1 {
+  color: #FF5733; /* Replace with your desired color */
+}
